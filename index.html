@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+  <div class="top-header">
+    <div class="container">
+
+      <a href="#">
+        <img src="Ecommerce Website/img/logo.png" alt="image" class="logo">
+      </a>
+
+      <form action="" class="search-box">
+        <select id="category">
+          <option value="ALL categories">ALL categories</option>
+          <option value="Electronics & Digital">Electronics & Digital</option>
+          <option value="Phone & Tablet">Phone & Tablet</option>
+          <option value="Fashion & Clothing">Fashion & Clothing</option>
+          <option value="Television & Monitor">Television & Monitor</option>
+          <option value="Jewelry & Watches">Jewelry & Watches</option>
+          <option value="Washing Machine">Washing Machine</option>
+          <option value="Toys & Hobbies">Toys & Hobbies</option>
+        </select>
+
+        <input type="text" id="search" placeholder="Search for products">
+
+        <button type="submit">
+          <i class="fa-solid fa-magnifying-glass-plus"></i>
+        </button>
+      </form>
+
+      <div class="header-icons">
+        <a href="#">
+          <i class="fa-regular fa-heart"></i>
+          <span class="count count-favorite">0</span>
+        </a>
+
+        <a href="#">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <span class="count count-item">0</span>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="button-header">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center;">
+
+      <nav class="nav">
+
+       
+     
+      
+
+
+     <div class="category-nav">
+
+  <div onclick=" openMenu()"   class="category-btn">
+    <i class="fa-solid fa-bars"></i>
+    <p>browse category</p>
+    <i class="fa-solid fa-caret-down"></i>
+  </div>
+
+  
+  <div  class="category-nav-list">
+  <a href="#">Top 10 Offers</a>
+  <a href="#">Electronics & Digital</a>
+  <a href="#">Phones & Tablet</a>
+  <a href="#">Fashion & Clothing</a>
+  <a href="#">Television & Monitor</a>
+  <a href="#">Jewelry & Watches</a>
+  <a href="#">Toys & Hobbies</a>
+</div>
+
+
+</div>
+
+
+        
+        <ul class="nav-links">
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+
+      </nav>
+
+      
+      <div class="login-signup-btns">
+        <a href="#" class="btn">Login<i class="fa-solid fa-arrow-right-to-bracket"></i></a> </i>
+        <a href="#" class="btn">Sign-Up <i class="fa-solid fa-user"></i></a>
+      </div>
+
+    </div>
+
+         
+  </div>
+
+
+
+</header>
+
+<script src="js/main.js"></script>
+
+</body>
+
+
+</html>
